@@ -1,8 +1,8 @@
 cd /home/steam/Steam/steamapps/common/PalServer/Pal/Saved/
-date >> log.txt
-echo "stop cmd starting" >> log.txt
-echo "Save" | rcon -s localhost >> log.txt &
+date
+echo "stop cmd starting"
+echo "Save" | rcon -s localhost &
 sleep 10
-echo "DoExit" | rcon -s localhost >> log.txt
+echo "DoExit" | rcon -s localhost &
 /home/steam/Steam/steamapps/common/PalServer/Pal/Saved/cmd/backup.sh
 

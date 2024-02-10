@@ -15,3 +15,12 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 Already up to date.
+[main e7b8839] backup via cmd
+ 4 files changed, 17 insertions(+), 16 deletions(-)
+ rewrite SaveGames/0/70321E33969F43129D0BF678FF8B46C5/Level.sav (96%)
+ rewrite SaveGames/0/70321E33969F43129D0BF678FF8B46C5/LevelMeta.sav (100%)
+ rewrite SaveGames/0/70321E33969F43129D0BF678FF8B46C5/Players/17737E43000000000000000000000000.sav (99%)
+ rewrite log.txt (94%)
+To github.com:richchang0/rc-palworld.git
+   9e926d2..e7b8839  main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.

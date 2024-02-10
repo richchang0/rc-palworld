@@ -1,6 +1,6 @@
-cd /home/steam/Steam/steamapps/common/PalServer/Pal/Saved/
-git status
-git pull
-git add .
-git commit -m "backup via cmd"
-git push -u origin main
+cd /home/steam/Steam/steamapps/common/PalServer/Pal/Saved/SaveGames/0/70321E33969F43129D0BF678FF8B46C5
+DATE=$(date +"%Y-%m-%dT%H:%M")
+mkdir backup/$DATE
+cp Level.sav backup/$DATE/
+cp LevelMeta.sav backup/$DATE/
+cp -r Players backup/$DATE/
